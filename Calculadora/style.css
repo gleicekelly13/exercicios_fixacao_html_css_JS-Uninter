@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.botao {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.problema {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
