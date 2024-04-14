@@ -12,14 +12,8 @@
     height: 60vh;
 }
 
-.inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 input {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -27,6 +21,7 @@ input {
 }
 
 select {
+    margin-top: 5px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
