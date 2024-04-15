@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 5px;
+    border: 2px solid #000;
+    margin: 5px;
+    position: absolute; //Posiciona o elemento em qualquer lugar da página, tendo as bordas da própria página como referência.
+}
+
+.quadrado1 {
+    background-color: rgb(58, 58, 238);
+    top: 0;
+    left: 0;
+}
+
+.quadrado2 {
+    background-color: rgb(240, 52, 240);
+    bottom: 0;
+    left: 0;
+}
+
+.quadrado3 {
+    background-color: rgb(245, 211, 18);
+    top: 0;
+    right: 0;
+}
+
+.quadrado4 {
+    background-color: rgb(100, 196, 4);
+    bottom: 0;
+    right: 0;
+}
