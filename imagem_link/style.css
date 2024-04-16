@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    background-image: url("img_uninter.png");
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image:hover {
+    margin: 20px;
+    
+}
+
+.image:active {
+    opacity: 50%;
+}
